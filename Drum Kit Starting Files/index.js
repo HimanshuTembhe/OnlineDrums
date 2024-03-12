@@ -24,6 +24,11 @@ function keyPress(btnValue){
             drumSound.play();
             break;
 
+        case "s":
+            var drumSound = new Audio("./sounds/kick-bass.mp3");
+            drumSound.play();
+            break;
+
     }
 }
 
